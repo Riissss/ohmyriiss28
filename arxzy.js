@@ -1899,14 +1899,14 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'sc':
             case 'script':
             case 'scriptbot':
-                uy = `https://youtube.com/playlist?list=PLRmLRCoejWJsauHXGmkKERWnptlwtOy2q`
+                uy = `-`
                 arxzy.sendMessage(m.chat, {
                     text: uy,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
                             title: 'Script Free',
-                            body: `SCRIPT BOT ${namabot} Ada Di Youtube @arxzydev`,
+                            body: `SCRIPT BOT ${namabot} Ada Di Youtube @ohmyriiss28`,
                             thumbnailUrl: 'https://telegra.ph/file/0720685135c68851ca869.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
